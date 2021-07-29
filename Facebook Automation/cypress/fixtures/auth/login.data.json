@@ -1,0 +1,23 @@
+{
+    "validUser": {
+        "email": "sarah_xvsgaak_mohamed@tfbnw.net",
+        "password": "P@ssw0rd",
+        "userName": "Sarah Mohamed"
+    },
+    "unregisteredUser": {
+        "email": "testaccount@test.net",
+        "password": "password"
+    },
+    "invalidUser": {
+        "invalidEmailFormat": "invalidEmailFormat.net",
+        "invalidPassword": "123"
+    },
+    "expectedData": {
+        "messages": {
+            "popUpMessageError": "اسم المستخدم أو كلمة السر غير صحيحة"
+        },
+        "homeUrlPath": "/home.php",
+        "forgetPasswordUrlPath": "ctx=recover",
+        "createAcountUrlPath": "/reg"
+    }
+}

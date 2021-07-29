@@ -17,5 +17,8 @@
         "no-console": "warn",
         "camelcase": "error",
         "prettier/prettier": "error"
+    },
+    "env": {
+        "node": true
     }
 }

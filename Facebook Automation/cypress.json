@@ -1,1 +1,7 @@
-{}
+{
+    "baseUrl":"https://mobile.facebook.com",
+    "defaultCommandTimeout": 30000,
+    "viewportWidth": 600,
+    "viewportHeight": 600,
+    "ignoreTestFiles" : ["*.md"] 
+}
