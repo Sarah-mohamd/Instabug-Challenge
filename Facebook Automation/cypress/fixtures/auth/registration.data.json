@@ -1,0 +1,44 @@
+{
+    "userData": {
+        "firstName": "Sarah",
+        "lastName": "Mohamed",
+        "fullName":"Sarah Hassan",
+        "birthDay": "16",
+        "birthMonth": "4",
+        "birthYear": "1996",
+        "email": "sarah_zrqkoof_hassan@tfbnw.net",
+        "invalidEmail": "sarah_zrqkoof_hassantfbn",
+        "existEmail": "smh_mostafa@hotmail.com",
+        "password": "P@ssw0rd"
+    },
+    "expectedData": {
+        "messages": {
+            "popUpMessageError": "What's your name?",
+            "firstNameMessageError": "Please enter your first name",
+            "familyNameMessageError": "Please enter your surname",
+            "notValidBirthDate": "It looks like you've entered the wrong info. Please make sure that you use your real date of birth.",
+            "emptyEmail": "Please enter a valid email address",
+            "invalidEmail": "Please enter a valid email address",
+            "unselectedGender":"Please select your gender.",
+            "emptyPassword":"Enter a combination of at least six numbers, letters and punctuation marks (such as ! and &)."
+        },
+        "birthDate": {
+            "title": "What's your date of birth?"
+        },
+        "email": {
+            "title": "Enter your email address"
+        },
+        "phone":{
+            "title":"Enter your phone number"
+        },
+        "gender": {
+            "title": "What's your gender?"
+        },
+        "password":{
+            "title":"Choose a password"
+        },
+        "url":{
+            "emailExistRecoveryAccount":"recover"
+        }
+    }
+}
