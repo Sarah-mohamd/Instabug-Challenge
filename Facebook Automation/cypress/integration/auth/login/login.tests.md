@@ -7,7 +7,6 @@ here all test case that should be coverd in login screen ( UI and E2E)
 - [x]  Check that page elements are displayed successfully
 - [x]  Check that forget Password button redirection worked successfully
 - [x]  Check that create account button redirection worked successfully
-- [ ]  Test localizations
 
 ### Login Functionality Tests Suite
 
@@ -19,6 +18,6 @@ here all test case that should be coverd in login screen ( UI and E2E)
 ### Security Login Functionality Test Suite
 
 - [x]  Asking for login again after clear browser cookies
-- [ ]  When tap back after login user should be in home screen
+- [x]  When tap back after login user should be in home screen
 
 **Note**: if the check box is checked thats mean it's case writen, else means that is to do for the next ( for any one in the team should add it later ).

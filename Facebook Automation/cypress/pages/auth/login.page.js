@@ -2,7 +2,7 @@ import LoginSelector from "../selectors/auth/login.selectors";
 
 class LoginPage {
   getErrorMessage() {
-    return cy.get(LoginSelector.assertionMessage);
+    return cy.get(LoginSelector.assertionAlertMessage);
   }
 
   getErrorMessageAlert() {
