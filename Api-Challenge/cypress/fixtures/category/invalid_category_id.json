@@ -1,0 +1,7 @@
+{
+    "name": "NotFound",
+    "message": "No record found for id 'ax00000'",
+    "code": 404,
+    "className": "not-found",
+    "errors": {}
+}
