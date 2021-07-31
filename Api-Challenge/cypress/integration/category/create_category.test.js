@@ -29,7 +29,7 @@ describe("Create category tests", () => {
     });
   });
 
-  it("Get error message when trying to create a category with e isting id", () => {
+  it("Get error message when trying to create a category with existing id", () => {
     cy.fixture("category/invalid_category_creation_response.json").as(
       "inValidCreatedResponse"
     );
@@ -37,7 +37,7 @@ describe("Create category tests", () => {
       cy.request({
         method: "POST",
         url: categoriesEndPointPath,
-        body: { name: "testcategory", id: "10101010" },
+        body: { name: "testcategory", id: categoryId },
         failOnStatusCode: false,
       }).then((response) => {
         expect(response.status).to.eq($expectedCategories.code);

@@ -22,5 +22,5 @@
 
 ## Delete a category tests
 
-- [ ]  Delete a category by entering a valid id
-- [ ]  Get an Error message when tries to delete a category that already deleted before
+- [x]  Delete a category by entering a valid id
+- [x]  Get an Error message when tries to delete a category that already deleted before
