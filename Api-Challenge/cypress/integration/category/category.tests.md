@@ -10,15 +10,15 @@
 
 ## Create category tests
 
-- [ ]  Create a category by entering a valid name and id
-- [ ]  Get error message when trying to create a category with e isting id
-- [ ]  Get an error message when trying to create a category without id
+- [x]  Create a category by entering a valid name and id
+- [x]  Get error message when trying to create a category with e isting id
+- [x]  Get an error message when trying to create a category without id
 
 ## Edit a category tests
 
-- [ ]  Edit id and name of a category by entering a valid name and id
-- [ ]  Get error message when trying to update a category without entering id
-- [ ]  Get error message when trying to update a category with invalid id
+- [x]  Edit id and name of a category by entering a valid name and id
+- [x]  Get error message when trying to update a category without entering id
+- [x]  Get error message when trying to update a category with invalid id
 
 ## Delete a category tests
 

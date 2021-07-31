@@ -1,7 +1,7 @@
 //<reference types="cypress" />
 const categoriesEndPointPath = "/categories";
 const categoryId = "dl3475";
-describe("create a category", () => {
+describe("Create category tests", () => {
   after(() => {
     // delete the created category.
     cy.request({
@@ -12,7 +12,7 @@ describe("create a category", () => {
     });
   });
 
-  it("Create a category by entering a valid name and id", () => {
+  it("Create a category by entering a valid name and id", () => {
     cy.fixture("category/valid_category_creation.json").as(
       "createdCategoryResponse"
     );
@@ -29,7 +29,7 @@ describe("create a category", () => {
     });
   });
 
-  it("Get error message when trying to create a category with existing id", () => {
+  it("Get error message when trying to create a category with e isting id", () => {
     cy.fixture("category/invalid_category_creation_response.json").as(
       "inValidCreatedResponse"
     );
@@ -50,7 +50,7 @@ describe("create a category", () => {
     });
   });
 
-  it("Get an error message when trying to create a category without id", () => {
+  it("Get an error message when trying to create a category without id", () => {
     const categoyName = "lane";
     cy.fixture("category/invalid_category_creation.json").as(
       "createdCategoryResponse"
