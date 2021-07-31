@@ -1,7 +1,7 @@
 //<reference types="cypress" />
 const categoriesEndPointPath = "/categories/";
 const testInput = {
-  categoryId: "dl3473",
+  categoryId: "dl34734",
 };
 describe("Delete category tests", () => {
   before(() => {
