@@ -1,0 +1,39 @@
+{
+  "name": "api-automation",
+  "version": "1.0.0",
+  "description": "Cypress project to automate tests for Best Buy API scenarios by using",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "lint": "eslint ./cypress --color",
+    "lint:fix": "eslint ./cypress --color --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sarah-mohamd/Instabug-Challenge"
+  },
+  "keywords": [
+    "api",
+    "api-automation",
+    "cypress"
+  ],
+  "author": "Sarah Mohamed",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cypress": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.1",
+    "prettier": "2.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
