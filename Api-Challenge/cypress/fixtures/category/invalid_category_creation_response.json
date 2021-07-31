@@ -1,0 +1,14 @@
+{
+    "name": "BadRequest",
+    "message": "Validation error",
+    "code": 400,
+    "className": "bad-request",
+    "errors": [
+      {
+        "message": "id must be unique",
+        "type": "unique violation",
+        "path": "id",
+        "value": "dl3473"
+      }
+    ]
+  }
